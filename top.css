@@ -214,19 +214,17 @@ section h2 {
   background: #fff;
   color: #000;
 }
-@media screen and (max-width: 650px){
+@media screen and (max-width: 600px){
   .section-contact dl {
     flex-direction: column;
     align-items: center;
   }
   .section-contact dt {
-    width: 90%;
+    width: 100%;
     text-align: left;
-    padding: 0 6%;
   }
   .section-contact dd {
-    width: 90%;
-    padding: 0 6%;
+    width: 100%;
   }
 }
 #footer {
